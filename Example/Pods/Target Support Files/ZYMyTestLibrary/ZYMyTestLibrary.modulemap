@@ -1,0 +1,6 @@
+framework module ZYMyTestLibrary {
+  umbrella header "ZYMyTestLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ZYMyTestLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of ZYMyTestLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lzy/ZYMyTestLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lzy": "752182124@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lzy/ZYMyTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZYMyTestLibrary/Classes/**/*"
+}
