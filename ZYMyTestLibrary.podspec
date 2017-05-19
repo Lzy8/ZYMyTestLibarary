@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYMyTestLibrary'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'A delightful infinit carouseView for ios'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ add xib and sbd
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZYMyTestLibrary/Classes/**/*'
-  
+  s.resource = 'ZYMyTestLibarary/Assets/ZYTest.bundle'
   s.resource_bundles = {
-    'ZYMyTestLibrary' => ['ZYMyTestLibrary/Assets/ZYTest.bundle']
+    'ZYMyTestLibrary' => ['ZYMyTestLibrary/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
