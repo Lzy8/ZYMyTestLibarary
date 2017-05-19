@@ -34,9 +34,9 @@ add xib and sbd
 
   s.source_files = 'ZYMyTestLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZYMyTestLibrary' => ['ZYMyTestLibrary/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ZYMyTestLibrary' => ['ZYMyTestLibrary/Assets/*.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
