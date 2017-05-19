@@ -33,7 +33,7 @@ add xib and sbd
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZYMyTestLibrary/Classes/**/*'
-  s.resource = 'ZYMyTestLibarary/Assets/ZYTest.bundle'
+  s.resource = 'ZYMyTestLibarary/ZYTest.bundle'
   s.resource_bundles = {
     'ZYMyTestLibrary' => ['ZYMyTestLibrary/Assets/*.png']
   }
