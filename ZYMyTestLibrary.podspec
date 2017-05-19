@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYMyTestLibrary'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'A delightful infinit carouseView for ios'
 
 # This description is used to generate tags and improve search results.
