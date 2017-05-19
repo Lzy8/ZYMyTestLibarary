@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYMyTestLibrary'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A delightful infinit carouseView for ios'
 
 # This description is used to generate tags and improve search results.
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
 播图，无限轮播图，基于scorllview及三个uiimageview，timer定时。
+add xib and sbd
                        DESC
 
   s.homepage         = 'https://github.com/Lzy8/ZYMyTestLibarary'

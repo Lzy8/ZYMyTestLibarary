@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		47F945085AB96996AEC06A74 /* Pods_ZYMyTestLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B16B60463E5C6BB8E5A1CE /* Pods_ZYMyTestLibrary_Tests.framework */; };
+		572F56CC1ECE93E900F89060 /* Testsbd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572F56CB1ECE93E900F89060 /* Testsbd.storyboard */; };
+		572F56CE1ECE940900F89060 /* TestNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572F56CD1ECE940900F89060 /* TestNib.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,8 +43,10 @@
 		1FFDDCD5F840F0BF7B35AAD4 /* Pods_ZYMyTestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYMyTestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EE7ED66446E8B2EEF0B531 /* Pods-ZYMyTestLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYMyTestLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYMyTestLibrary_Tests/Pods-ZYMyTestLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		42601FA61A553340BA49C4C5 /* Pods-ZYMyTestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYMyTestLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYMyTestLibrary_Example/Pods-ZYMyTestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		50374A305A046F12D0AF5FBA /* ZYMyTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYMyTestLibrary.podspec; path = ../ZYMyTestLibrary.podspec; sourceTree = "<group>"; };
-		5A7D6FB32B3A263B091AE017 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		50374A305A046F12D0AF5FBA /* ZYMyTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYMyTestLibrary.podspec; path = ../ZYMyTestLibrary.podspec; sourceTree = "<group>"; };
+		572F56CB1ECE93E900F89060 /* Testsbd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Testsbd.storyboard; sourceTree = "<group>"; };
+		572F56CD1ECE940900F89060 /* TestNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNib.xib; sourceTree = "<group>"; };
+		5A7D6FB32B3A263B091AE017 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYMyTestLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYMyTestLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +68,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6A6C15ABAE200795D4958B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6A6C15ABAE200795D4958B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8EFE31197F33CFC0674B1FA /* Pods-ZYMyTestLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYMyTestLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYMyTestLibrary_Example/Pods-ZYMyTestLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3B16B60463E5C6BB8E5A1CE /* Pods_ZYMyTestLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYMyTestLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,6 +102,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				572F56CD1ECE940900F89060 /* TestNib.xib */,
+				572F56CB1ECE93E900F89060 /* Testsbd.storyboard */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZYMyTestLibrary */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -280,9 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				572F56CC1ECE93E900F89060 /* Testsbd.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				572F56CE1ECE940900F89060 /* TestNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
