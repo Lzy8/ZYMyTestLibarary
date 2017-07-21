@@ -24,7 +24,7 @@ add xib and sbd
                        DESC
 
   s.homepage         = 'https://github.com/Lzy8/ZYMyTestLibarary'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'http://www.liuziyi.win/wp-content/uploads/2017/06/Milky-Way-e1497964515420.jpg'#, 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lzy' => '752182124@qq.com' }
   s.source           = { :git => 'https://github.com/Lzy8/ZYMyTestLibarary.git', :tag => s.version.to_s }
